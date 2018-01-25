@@ -20,6 +20,3 @@ CREATE DATABASE IF NOT EXISTS `alphabet` COLLATE 'utf8_general_ci' ;
 GRANT ALL ON `alphabet`.* TO 'alphabet'@'localhost' ;
 
 FLUSH PRIVILEGES ;
-
-
-
