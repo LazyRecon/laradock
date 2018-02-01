@@ -58,6 +58,8 @@ services:
         - "dockerhost:${DOCKER_HOST_IP}"
       ports:
         - "${WORKSPACE_SSH_PORT}:22"
+        - "3000:3000"
+        - "3001:3001"
       tty: true
       networks:
         - frontend
